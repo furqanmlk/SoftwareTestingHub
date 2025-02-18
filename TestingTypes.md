@@ -82,4 +82,23 @@
 
 ### Continuous Testing (CI/CD)
 - Running tests automatically in a pipeline.  
-  **Example:** GitHub Actions executing automated tests after every code commit.  
+  **Example:** GitHub Actions executing automated tests after every code commit.
+
+
+  # Summary Table of Testing Types
+
+| **Testing Type**         | **Real-Life Example**              | **Tools Used**             |
+|--------------------------|-----------------------------------|----------------------------|
+| **Sanity Testing**       | Quick Login Verification         | Cypress, Selenium         |
+| **Boundary Testing**     | Password Length Validation       | PyTest, Selenium          |
+| **Negative Testing**     | Invalid Payment Inputs           | Postman, PyTest           |
+| **Compatibility Testing**| Cross-Browser UI Testing        | Cypress, BrowserStack     |
+| **Concurrency Testing**  | Multi-User Login Performance     | JMeter, LoadRunner        |
+| **Performance Testing**  | API Load Testing                 | JMeter, k6                |
+| **Security Testing**     | SQL Injection Prevention         | OWASP ZAP                 |
+| **Usability Testing**    | Screen Reader Compliance        | NVDA, WCAG Audits         |
+| **Exploratory Testing**  | Breaking API Calls              | Postman, Charles Proxy    |
+| **Data Integrity Testing** | Backend DB Validation        | SQL Queries, Python       |
+| **Recovery Testing**     | Server Failover Check           | Kubernetes, AWS CloudWatch|
+| **End-to-End Testing**   | Full E-Commerce Checkout Flow   | Cypress, Selenium         |
+
