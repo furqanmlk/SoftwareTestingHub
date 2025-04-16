@@ -40,6 +40,7 @@ At McAfee, I was often responsible for manual testing of complex features with o
 |-----------|------|--------|--------|
 | At McAfee, multiple testing tasks were competing for limited time close to a major release | Ensure all high-risk areas were thoroughly tested while meeting deadlines | Prioritized test cases based on risk, business impact, and critical paths; aligned closely with PMs and Devs to adjust timelines and testing focus | Delivered high-quality testing within the deadline; ensured zero critical issues post-release |
 
+## Question 4: How do you ensure comprehensive test coverage during manual testing?
 
 ### ✅ Ensuring Comprehensive Test Coverage (Manual QA)
 
