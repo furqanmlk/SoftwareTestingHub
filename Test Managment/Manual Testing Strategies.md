@@ -40,3 +40,15 @@ At McAfee, I was often responsible for manual testing of complex features with o
 |-----------|------|--------|--------|
 | At McAfee, multiple testing tasks were competing for limited time close to a major release | Ensure all high-risk areas were thoroughly tested while meeting deadlines | Prioritized test cases based on risk, business impact, and critical paths; aligned closely with PMs and Devs to adjust timelines and testing focus | Delivered high-quality testing within the deadline; ensured zero critical issues post-release |
 
+
+### ✅ Ensuring Comprehensive Test Coverage (Manual QA)
+
+| 🧩 Step | 🎯 Approach | 💡 Dummy Scenario |
+|--------|-------------|-------------------|
+| 🔍 **1. Requirements Analysis** | Review user stories, acceptance criteria, and business rules | *Login should support both email and phone – test both paths* |
+| 📑 **2. Test Case Design** | Write positive, negative, edge, and boundary test cases | *Shopping cart: add 1 item, 100 items, -1, 0, non-numeric input* |
+| 🔗 **3. Traceability Matrix** | Map each test case to a requirement to ensure nothing is missed | *“Apply discount code” — test valid, expired, and invalid codes* |
+| 🔁 **4. Regression Coverage** | Maintain a suite of reusable tests for critical flows | *New payment gateway added — test both old and new gateways* |
+| 🎭 **5. Exploratory Testing** | Simulate real-world usage through ad-hoc testing | *Try switching tabs mid-checkout, clicking browser back* |
+| 🧪 **6. Cross-Platform Testing** | Check behavior across browsers, devices, screen sizes | *Compare login on Chrome vs. Safari, mobile vs. desktop* |
+| 👥 **7. Peer Reviews** | Have others review test cases for missed scenarios | *Team member suggests checking session timeout mid-purchase* |
