@@ -236,7 +236,16 @@ Fine-tuning allows SLMs to achieve strong performance for **specific test tasks*
 
 ---
 
-### Challenges
+### Challenges of Using Generative AI in Software Testing  
+*(ISTQB CT-GenAI – Chapter 4, pages 42–47)*
+
+| **Challenge** | **Description (Simple)** | **Simple Example** |
+|--------------|--------------------------|-------------------|
+| **Data Quality Issues → Biased Outputs** | If the data used to train the AI is poor or biased, the AI will produce biased or incorrect results. | AI creates test cases only for normal user behavior because the training data did not include many error cases. |
+| **Overfitting → Poor Generalization** | The AI learns patterns too closely from past data and struggles with new or changed situations. | AI generates tests based on old requirements and misses a newly added feature. |
+| **Opacity → Difficult to Explain Reasoning** | The AI provides results without clearly explaining how or why it reached them. | AI marks a defect as high priority but does not explain the reason. |
+| **Resource Demands → Compute and Maintenance Costs** | Using generative AI requires high computing power and ongoing maintenance, which can be costly. | Running AI-based test generation slows down the CI pipeline and increases cloud costs. |
+
 - **Data quality issues** → biased outputs
 - **Overfitting** → poor generalization
 - **Opacity** → difficult to explain reasoning
