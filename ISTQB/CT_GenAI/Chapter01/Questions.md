@@ -494,3 +494,227 @@ D. Hardware speed
 **Answer:** B
 
 ---
+
+## Chapter 01 Practice Questions  
+(Based on ASTQB Sample Exam Answers)
+
+---
+
+### Question 1
+Which of the following uses deep learning techniques to create new content?
+
+a. Symbolic AI  
+b. Classical machine learning  
+c. Deep learning  
+d. Generative AI  
+
+**Correct Answer:** D  
+
+**Explanation:**  
+Generative AI uses deep learning techniques to create new data (such as text, code, or images) by learning and mimicking patterns from training data.
+
+Source: ASTQB Sample Exam, Question 1  
+Learning Objective: GenAI-1.1.1
+
+---
+
+### Question 2
+You have used the same prompt multiple times, but you have received different responses from the LLM. Why is this happening?
+
+a. Because the prompt is incorrect  
+b. Because LLMs have non-deterministic behavior  
+c. Because the training data was faulty  
+d. Because LLMs are trained to always vary the response  
+
+**Correct Answer:** B  
+
+**Explanation:**  
+LLMs are probabilistic systems. Their inference mechanisms and hyper-parameter settings can lead to different outputs even when the same prompt is used.
+
+Source: ASTQB Sample Exam, Question 2  
+Learning Objective: GenAI-1.1.2
+
+---
+
+### Question 3
+How is tokenization related to embeddings?
+
+a. Tokens are a numeric representation of how a word is embedded into the model  
+b. Tokens represent characters, subwords, or words, and embeddings capture the semantic, syntactic, and contextual relationships of the tokens  
+c. Embeddings describe the text component so it can be tokenized  
+d. Embeddings identify non-deterministic behavior of words  
+
+**Correct Answer:** B  
+
+**Explanation:**  
+Tokenization breaks text into units (tokens), while embeddings convert those tokens into numerical vectors that capture meaning and relationships.
+
+Source: ASTQB Sample Exam, Question 3  
+Learning Objective: GenAI-1.1.2
+
+---
+
+### Question 4
+You need an LLM that will help with decision-making based on a process similar to human logic. Which type of LLM should you use?
+
+a. Foundation LLM  
+b. Instruction-tuned LLM  
+c. Reasoning LLM  
+d. Ad-hoc LLM  
+
+**Correct Answer:** C  
+
+**Explanation:**  
+Reasoning LLMs are trained to emulate structured, multi-step human-like reasoning and logical decision-making.
+
+Source: ASTQB Sample Exam, Question 4  
+Learning Objective: GenAI-1.1.3
+
+---
+
+### Question 5
+Which of the following is an advantage of using an LLM augmented with vision-language models for developing test cases?
+
+a. No advantage; these models are mainly for military use  
+b. It can create test cases that include text and visual cues  
+c. It edits images faster than humans  
+d. It generates executable code from screenshots  
+
+**Correct Answer:** B  
+
+**Explanation:**  
+Vision-language models allow test cases to include both textual information and visual cues, increasing overall test coverage.
+
+Source: ASTQB Sample Exam, Question 5  
+Learning Objective: GenAI-1.1.4
+
+---
+
+### Question 6
+You are testing driver’s license applications and have a huge amount of data that would take too long to test fully. How can an LLM help?
+
+a. Create new synthetic data to protect privacy  
+b. Augment missing data based on rules  
+c. Break existing data into smaller sets containing interesting variances  
+d. Delete duplicate data and replace it  
+
+**Correct Answer:** C  
+
+**Explanation:**  
+LLMs can analyze large datasets and reduce them into smaller, representative subsets that still contain meaningful variability.
+
+Source: ASTQB Sample Exam, Question 6  
+Learning Objective: GenAI-1.2.1
+
+---
+
+### Question 7
+Your organization is building an AI-based test management tool to generate, classify, and store test cases. Which interaction model is best?
+
+a. Chatbots talking to the LLM  
+b. Chatbots talking to other chatbots  
+c. APIs of the LLM to pass data into and out of the model  
+d. APIs to store test cases inside the LLM  
+
+**Correct Answer:** C  
+
+**Explanation:**  
+Using LLM APIs enables scalable, automated, and system-to-system integration. Chatbots are less suitable for enterprise-level workflows.
+
+Source: ASTQB Sample Exam, Question 7  
+Learning Objective: GenAI-1.2.2
+
+---
+
+## Additional Chapter 01 Practice Questions  
+(Based on CT-GenAI Syllabus Learning Objectives)
+
+---
+
+### Question 8
+Which type of AI relies on rule-based systems to mimic human decision-making using logical rules and symbols?
+
+a. Deep Learning  
+b. Generative AI  
+c. Classical Machine Learning  
+d. Symbolic AI  
+
+**Correct Answer:** D  
+
+**Explanation:**  
+Symbolic AI represents knowledge using symbols and logical rules and does not rely on data-driven learning.
+
+Learning Objective: GenAI-1.1.1
+
+---
+
+### Question 9
+In the context of LLMs, what is a “context window”?
+
+a. The user interface for entering prompts  
+b. The limit on the amount of text (in tokens) the model can process at one time  
+c. The time period during which the model was trained  
+d. The embedding vector space  
+
+**Correct Answer:** B  
+
+**Explanation:**  
+The context window defines how much input text the model can consider simultaneously to maintain relevance and coherence.
+
+Learning Objective: GenAI-1.1.2
+
+---
+
+### Question 10
+An LLM has been fine-tuned with prompt-response datasets to better follow human instructions. What type of LLM is this?
+
+a. Foundation LLM  
+b. Instruction-tuned LLM  
+c. Symbolic LLM  
+d. Multimodal LLM  
+
+**Correct Answer:** B  
+
+**Explanation:**  
+Instruction-tuned LLMs are optimized to follow user intent and human-written instructions.
+
+Learning Objective: GenAI-1.1.3
+
+---
+
+### Question 11
+How does an LLM assist with Requirements Analysis?
+
+a. Compiling code to detect syntax errors  
+b. Executing requirements as scripts  
+c. Identifying ambiguities, inconsistencies, or missing information  
+d. Replacing stakeholder discussions entirely  
+
+**Correct Answer:** C  
+
+**Explanation:**  
+LLMs can analyze the test basis to detect unclear, incomplete, or conflicting requirements and suggest clarifications.
+
+Learning Objective: GenAI-1.2.1
+
+---
+
+### Question 12
+Which scenario best suits the use of an AI chatbot instead of an integrated LLM application?
+
+a. Exploratory testing requiring conversational feedback  
+b. Automated classification of thousands of defects  
+c. CI/CD-integrated unit test generation  
+d. Overnight regression execution  
+
+**Correct Answer:** A  
+
+**Explanation:**  
+Chatbots are ideal for interactive, conversational use cases such as exploratory testing, while API-based integrations are better for automation and bulk processing.
+
+Learning Objective: GenAI-1.2.2
+
+---
+
+## End of Chapter 01 Practice Questions
+
