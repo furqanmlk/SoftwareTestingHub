@@ -1,7 +1,4 @@
-# Magnet Forensics — SDET Interview Prep
-**Furqan Malik, CTFL, PMP** | Hiring Manager Round
 
----
 
 ## 1. Tell Me About Yourself
 
@@ -71,24 +68,6 @@ What draws me to Magnet is the combination of meaningful mission — software th
 - **Task:** Reduce triage overhead without sacrificing signal quality.
 - **Action:** Built an AI-assisted agentic workflow using an LLM to cluster test failures by root cause. The system ingested failure logs, stack traces, and historical patterns, then grouped failures into labelled clusters (e.g., "environment connectivity", "data setup race condition", "known flaky assertion"). Added self-healing scripts to auto-retry and quarantine known-flaky tests based on pattern confidence scores. Integrated into Jenkins and surfaced in Grafana.
 - **Result:** Manual triage time dropped 40%. Engineers started trusting the pipeline again. Two latent infrastructure issues were surfaced that had been hiding in the noise for months.
-
----
-
-## 3. Magnet CODE Values
-
-> Magnet explicitly asks candidates to demonstrate CODE. Prepare 30–60 seconds per value.
-
-### CARE — We care about each other and our mission
-"My background is entirely in security software — McAfee, Symantec, BlackBerry. I've spent my career building quality for products that protect people's devices, data, and identities. Magnet's mission — helping investigators fight crime and protect communities — is a natural extension of that. The work matters beyond the code, and that's the environment I do my best work in."
-
-### OWN — Accountable, integrity, empathy
-"I've owned quality end-to-end for production platforms with millions of users. When something slips through, I don't deflect — I do a root-cause analysis, fix the gap in the framework, and share the learning with the team. Accountability means the pipeline is trustworthy because I made it trustworthy."
-
-### DEDICATE — Meeting customer needs
-"I design tests based on user risk, not just code coverage. Go/no-go decisions I've supported have always been framed around: what is the customer impact? That's why I participate in refinement and design — so quality is aligned to product intent from the start, not bolted on at the end."
-
-### EVOLVE — Constantly innovating
-"The agentic testing work I built at McAfee — LLM-powered failure clustering, self-healing pipelines — came from asking 'what would quality engineering look like if we applied AI here?' I'm currently completing my ISTQB CT-GenAI certification. I believe the next 2–3 years will fundamentally change how QEs work, and I want to be building that future, not reacting to it."
 
 ---
 
