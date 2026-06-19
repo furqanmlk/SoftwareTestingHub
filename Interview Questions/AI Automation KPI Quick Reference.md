@@ -1,4 +1,4 @@
-# AI Automation Architect KPI Quick Reference
+# AI Automation Architect KPI Quick Reference (Key Performance Indicator)
 
 | KPI                                | Definition                                    | Formula                                                | Example                                  |
 | ---------------------------------- | --------------------------------------------- | ------------------------------------------------------ | ---------------------------------------- |
