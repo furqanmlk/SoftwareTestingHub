@@ -472,6 +472,20 @@ Basic Validation
 
 This ensures testing effort is aligned with business value rather than treating every feature equally.
 
+# Q11. If you only have two days before release, how would you decide what to test?
+## A strong answer is:
+
+- Assess the changes in the release.
+- Perform impact analysis.
+- Prioritize high-risk and business-critical functionality.
+- Execute smoke tests first.
+- Run targeted regression on impacted areas.
+- Validate APIs before UI where possible.
+- Review open defects and their severity.
+- Communicate residual risks before giving a Go/No-Go recommendation.
+
+This demonstrates strategic thinking rather than simply listing testing types, which is exactly what senior interviewers look for.
+
 ---
 
 # Quick Revision
