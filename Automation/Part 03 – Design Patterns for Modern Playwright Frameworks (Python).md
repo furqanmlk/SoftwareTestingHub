@@ -1,7 +1,3 @@
-# Senior QA Automation Architect Interview Handbook
-
-# Chapter 02 – Automation Script Development
-
 ## Part 03 – Design Patterns for Modern Playwright Frameworks (Python)
 
 ---
