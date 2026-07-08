@@ -1,4 +1,4 @@
-## Part 05 – Enterprise CI/CD Architecture, Leadership & Test Architect Interview Questions
+## Part 05 – Enterprise CICD Architecture, Leadership & Test Architect Interview Questions
 
 ---
 
