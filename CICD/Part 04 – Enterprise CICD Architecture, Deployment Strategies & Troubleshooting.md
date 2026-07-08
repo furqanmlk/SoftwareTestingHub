@@ -1,4 +1,4 @@
-## Part 04 – Enterprise CI/CD Architecture, Deployment Strategies & Troubleshooting
+## Part 04 – Enterprise CICD Architecture, Deployment Strategies & Troubleshooting
 
 ---
 
