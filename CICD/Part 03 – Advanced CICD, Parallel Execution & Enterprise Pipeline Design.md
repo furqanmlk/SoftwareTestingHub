@@ -1,4 +1,4 @@
-## Part 03 – Advanced CI/CD, Parallel Execution & Enterprise Pipeline Design
+## Part 03 – Advanced CICD, Parallel Execution & Enterprise Pipeline Design
 
 ---
 
