@@ -1,5 +1,3 @@
-# Chapter 01 – CI/CD (Jenkins & GitHub Actions)
-
 # Part 02 – GitHub Actions, Jenkins Pipeline Design
 
 ---
