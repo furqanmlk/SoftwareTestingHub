@@ -1,6 +1,4 @@
-# Senior QA Automation Architect Interview Handbook
-
-# Chapter 01 – CI/CD (Jenkins & GitHub Actions)
+# Part 01 – CI-CD (Jenkins & GitHub Actions)
 
 ---
 
